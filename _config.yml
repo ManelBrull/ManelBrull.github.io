@@ -1,6 +1,6 @@
 # Site settings
 
-title: Manel Brull Portfolio
+title: Manel Brull
 email: mbrull88@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This webpage contains my professional information so everyone can check 
@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and a last one which provides additional information if you want to 
   contact me.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://localhost:4000/" # the base hostname & protocol for your site
 twitter_username: ManelBrull
 github_username:  ManelBrull
 
