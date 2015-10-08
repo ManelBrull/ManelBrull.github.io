@@ -1,8 +1,7 @@
 ---
 layout: post
-title: first skill
-permalink: /firstskill/
+title: second skill
 ---
 
-This is my first skill. 
+This is my second skill. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nisi sem. Nullam pellentesque varius magna vel ornare. 

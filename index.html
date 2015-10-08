@@ -4,19 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">I love programming and software development.</br>
+   Preferably backend stuff in Java, but I'm flexible and willing to challenge myself.</h1>
 
   <ul class="post-list">
     {% for skill in site.categories.landingpage %}
       <li>
-        <span class="post-meta">{{ skill.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ skill.id }}</a>
-          <p> {{ skill.output }} </p>
-        </h2>
+        <h2>{{ skill.title }}</h2>
+        <p>{{ skill.content }}</p>
       </li>
     {% endfor %}
+  </ul>
     
   </ul>
 
