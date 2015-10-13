@@ -1,0 +1,28 @@
+/**
+* Skills css
+*/
+
+.skills-heading {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.skills-list {
+    margin: 0 5%;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+        
+    	> h2 {
+    		font-size: 1.5em;
+    		margin-bottom: 0px;
+    	}
+    
+    	> p {
+	    	font-size: 1em;
+	    	text-align: justify;
+	    }
+    }
+}

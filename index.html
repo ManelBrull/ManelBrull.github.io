@@ -4,14 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">I love programming and software development.</br>
-   Preferably backend stuff in Java, but I'm flexible and willing to challenge myself.</h1>
+  <h1 class="skills-heading">I love programming and software development.</h1>
 
-  <ul class="post-list">
+  <ul class="skills-list">
     {% for skill in site.categories.landingpage %}
       <li>
         <h2>{{ skill.title }}</h2>
-        <p>{{ skill.content }}</p>
+        {{ skill.content }}
       </li>
     {% endfor %}
   </ul>
