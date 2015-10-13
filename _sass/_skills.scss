@@ -15,8 +15,9 @@
     > li {
         margin-bottom: $spacing-unit;
         
-    	> h2 {
+    	> h2, i {
     		font-size: 1.5em;
+    		line-height: 1.5em;
     		margin-bottom: 0px;
     	}
     

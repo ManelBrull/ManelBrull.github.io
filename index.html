@@ -9,7 +9,13 @@ layout: default
   <ul class="skills-list">
     {% for skill in site.categories.landingpage %}
       <li>
-      	<i class="fa fa-camera-retro fa-lg"></i>
+      	{% if skill.motivation == "high" %}
+      		<i class="fa fa-thumbs-up fa-pull-left green"></i>
+      	{% elsif skill.motivation == "middle" %}
+      		<i class="fa fa-thumbs-up fa-rotate-270 fa-pull-left yellow"></i>
+      	{% elsif skill.motivation == "low" %}
+      		<i class="fa fa-thumbs-up fa-rotate-180 fa-pull-left red"></i>
+      	{% endif %}
         <h2>{{ skill.title }}</h2>
         {{ skill.content }}
       </li>
