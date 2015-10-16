@@ -2,12 +2,14 @@
 * Skills css
 */
 
-.skills-heading, .jobs-heading {
+.skills-heading, .jobs-heading, .education-heading {
     font-size: 2em;
     margin-bottom: 1.5em;
     text-align: center;
 }
-
+.education-heading {
+	margin-bottom: 0.8em;
+}
 .skills-list, .jobs-list {
     margin: 0 5%;
     list-style: none;
@@ -39,5 +41,10 @@
      		margin-left: 2em; 
 		}
 	}
-
+}
+.education-list {
+	margin: 0 5%;
+	> li {
+		margin-left: 2em;
+	}
 }

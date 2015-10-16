@@ -10,12 +10,18 @@ layout: default
     {% for job in site.categories.resume %}
       <li>
         <h3>
-        	<strong class="job-dates">{{ job.start_year }} - {{ job.finish_year }}:</strong> 
-        	{{ job.role }}, <a target="_blank" href="{{ job.link }}" rel="external"> {{ job.company_name }}</a>
+          <strong class="job-dates">{{ job.start_year }} - {{ job.finish_year }}:</strong> 
+          {{ job.role }}, <a target="_blank" href="{{ job.link }}" rel="external"> {{ job.company_name }}</a>
         </h3>
         {{ job.content }}
       </li>
     {% endfor %}
   </ul>
-
+  
+  <h1 class="education-heading">Education</h1>
+    <ul class="education-list">
+      <li>2015: Scrum fundamental certified by <a target="_blank" href="http://www.scrumstudy.com/">SCRUMstudy</a></li>
+      <li>2014: Bachelor in Computer Science at <a target="_blank" href="https://www.upv.es/">Universidad Politecnica de Valencia</a></li>
+      <li>2013: Study abroad at <a target="_blank" href="http://www.chalmers.se/en/Pages/default.aspx">Chalmers tekniska hogskola</a></li>
+    </ul>
 </div>
