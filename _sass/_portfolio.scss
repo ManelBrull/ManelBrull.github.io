@@ -27,3 +27,17 @@
 	    }
     }
 }
+.job-dates {
+	font-weight: 600;
+}
+
+.jobs-list {
+	> li {
+		> p {
+		    list-style:disc outside none;
+     		display:list-item;
+     		margin-left: 2em; 
+		}
+	}
+
+}

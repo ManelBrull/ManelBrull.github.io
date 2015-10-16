@@ -9,12 +9,13 @@ layout: default
   <ul class="jobs-list">
     {% for job in site.categories.resume %}
       <li>
-        <h3>{{ job.start_year }} - {{ job.finish_year }}: {{ job.role }}</h3>
+        <h3>
+        	<strong class="job-dates">{{ job.start_year }} - {{ job.finish_year }}:</strong> 
+        	{{ job.role }}, <a target="_blank" href="{{ job.link }}" rel="external"> {{ job.company_name }}</a>
+        </h3>
         {{ job.content }}
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
