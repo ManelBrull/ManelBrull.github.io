@@ -1,7 +1,10 @@
 ---
 layout: post
-title: second project
-permalink: /secondproject/
+company_name: Umanick Technologies
+role: Software engineer
+link: www.umanick.com/en/
+start_year: 2014
+finish_year: present
 ---
 
 This is my second project.

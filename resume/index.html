@@ -4,16 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Resume</h1>
-
-  <ul class="post-list">
-    {% for post in site.categories.resume %}
+  <h1 class="jobs-heading">Here's my 9 to 5</h1>
+    
+  <ul class="jobs-list">
+    {% for job in site.categories.resume %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <h3>{{ job.start_year }} - {{ job.finish_year }}: {{ job.role }}</h3>
+        {{ job.content }}
       </li>
     {% endfor %}
   </ul>
