@@ -1,8 +1,8 @@
 /**
-* Skills css
+* Page headings
 */
 
-.skills-heading, .jobs-heading, .education-heading {
+.skills-heading, .jobs-heading, .education-heading, .projects-heading {
     font-size: 2em;
     margin-bottom: 1.5em;
     text-align: center;
@@ -10,7 +10,11 @@
 .education-heading {
 	margin-bottom: 0.8em;
 }
-.skills-list, .jobs-list {
+
+/**
+*	Page lists
+*/
+.skills-list, .jobs-list, .projects-list {
     margin: 0 5%;
     list-style: none;
 
@@ -29,9 +33,6 @@
 	    }
     }
 }
-.job-dates {
-	font-weight: 600;
-}
 
 .jobs-list {
 	> li {
@@ -47,4 +48,27 @@
 	> li {
 		margin-left: 2em;
 	}
+}
+/**
+* Others
+*/
+.job-dates {
+	font-weight: 600;
+}
+
+.github-redirect {
+	text-align: center;
+	> i, span {
+		line-height: 50px;
+		vertical-align: middle;
+	}
+	> i {
+		font-size: 1.8em;
+	}
+	> span {
+		font-size: 1.2em;
+		padding-left: 0.25em;
+	}
+	margin-bottom: 2em;
+	margin-top: -1em;
 }

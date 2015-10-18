@@ -4,20 +4,20 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Portfolio</h1>
+  <h1 class="projects-heading">Things I've been involved with.</h1>
 
-  <ul class="post-list">
-    {% for post in site.categories.portfolio %}
+  <div class="github-redirect">
+  	<i class="fa fa-github"></i>
+  	<span>Looking for the code? <a href="https://github.com/{{ site.github_username }}">It's on github.</a></span>
+  </div>
+
+  <ul class="projects-list">
+    {% for project in site.categories.portfolio %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+      	<h2> {{ project.title }} </h2>
+      	{{ project.content }}
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
