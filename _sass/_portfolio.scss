@@ -2,7 +2,9 @@
 * Page headings
 */
 
-.skills-heading, .jobs-heading, .education-heading, .projects-heading {
+.skills-heading, .jobs-heading, .education-heading, .projects-heading, 
+	.contact-me-heading
+	{
     font-size: 2em;
     margin-bottom: 1.5em;
     text-align: center;
@@ -38,17 +40,46 @@
 	> li {
 		> p {
 		    list-style:disc outside none;
-     		display:list-item;
+     		display: list-item;
      		margin-left: 2em; 
 		}
 	}
 }
+
 .education-list {
 	margin: 0 5%;
+	
 	> li {
 		margin-left: 2em;
 	}
 }
+
+.contact-me-option-list {
+	list-style: none;
+	max-width: 300px;
+	margin: auto;
+		
+	> li {
+		margin-bottom: $spacing-unit;
+		
+		> i, a, span {
+			line-height: 64px;
+			vertical-align: middle;
+		}
+
+		> i {
+			width: 55px;
+			font-size: 3em;
+			text-align:center
+		}
+		
+		> a, span {
+			padding-left: 0.25em;
+			font-size: 1.25em;
+		}
+	}
+}
+
 /**
 * Others
 */
