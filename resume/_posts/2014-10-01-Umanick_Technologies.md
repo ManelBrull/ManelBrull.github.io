@@ -7,8 +7,8 @@ start_year: 2014
 finish_year: present
 ---
 
-Developer, tester and maintaner of Umanick Identity SDK and Umanick Identity Workbench, capable of identifying, enrolling and verifying people in Windows environments. It was done using C#.
+Developer, tester and maintainer of a desktop application which performs biometric operations. I also helped to successfully implement the solution to clients. It was developed using C#.
 
-Responsible of the continuous integration system with Jenkins, SonarQube and Nexus for application developed in Java, C# or C.
+Responsible of the continuous integration system with Jenkins, SonarQube and Nexus for application developed in Java, C# and C++.
 
-Implemented a web application capable of identifying and verifying people using their biometrics characteristics. We used GWT framework, Java and applets.
+Designed and implemented a web application to identify and verify people using fingerprint samples. We used GWT framework, Java and applets to communicate with fingerprint scanners.
