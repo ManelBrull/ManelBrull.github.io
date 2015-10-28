@@ -1,5 +1,7 @@
 # Site settings
 
+encoding: utf-8
+
 title: Manel Brull
 description: > # this means to ignore newlines until "baseurl:"
   This webpage contains my professional information so everyone can check 
