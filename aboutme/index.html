@@ -2,22 +2,17 @@
 layout: default
 ---
 
-<div class="home">
+<div class="about-me">
+	<div class="about-me-col-1">
+		<img class="about-me-picture" src="{{ "assets/images/me.jpeg" | prepend: site.url }}" alt="Manel Brull picture" />
+		<h3 class="about-me-subtitle"> Current side project:</h3>
+		<p> Portfolio </p>
+		<h3 class="about-me-subtitle"> Current book: </h3>
+		<p> Clean Code </p>
+	</div>
 
-  <h1 class="page-heading">About me</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<div class="about-me-col-2">
+		<h1 class="about-me-heading"> Manel Brull Piqu&#233;</h1>
+	</div>
 
 </div>
