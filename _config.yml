@@ -10,8 +10,8 @@ keywords: Java, Agile, Scrum, Software Developer
 
 baseurl: ""
 
-#url: "https://manelbrull.github.io/" 
-url: "http://localhost:4000/"
+url: "https://manelbrull.github.io/" 
+#url: "http://localhost:4000/"
 
 #Personal details
 email: mbrull88@gmail.com
