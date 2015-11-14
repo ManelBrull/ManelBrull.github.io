@@ -9,7 +9,8 @@ description: >
   and a last one which provides additional information if you want to 
   contact me.
 baseurl: ""
-url: "https://manelbrull.github.io/" 
+#url: "https://manelbrull.github.io/" 
+url: "http://localhost:4000/"
 
 #Personal details
 email: mbrull88@gmail.com
