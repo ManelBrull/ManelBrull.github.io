@@ -14,7 +14,11 @@
  .about-me-col-1 {
  	float: left;
  	width: 30%;
- 	
+ 	> a, p
+ 	{
+ 		padding-left: 1em;
+ 		font-size: 1.1em;
+ 	}
  }
  
  .about-me-col-2 {
