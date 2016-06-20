@@ -4,7 +4,7 @@ company_name: Umanick Technologies
 role: Software engineer
 link: http://www.umanick.com/en/
 start_year: 2014
-finish_year: present
+finish_year: 2016
 ---
 
 Developer of a windows application integrated with Murcia Healthcare System which shows the electronic medical record of the identified patient. Developed using C# and windows forms.
